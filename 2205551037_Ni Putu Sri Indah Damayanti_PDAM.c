@@ -411,5 +411,6 @@ int main(){
 	printf("TOTAL denda\n>> %.2f\n", denda);
 	tarif = denda + tarif + pemeliharaan;
 	printf("TOTAL pembayaran\n>> %.2f", tarif);
-	
+
+	return 0;
 }
